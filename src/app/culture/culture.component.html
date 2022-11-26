@@ -1,0 +1,17 @@
+<table>
+    <thead>
+        <th>Position</th>
+        <th>Nmae</th>
+        <th>Capital</th>
+        <th>Tradition</th>
+    </thead>
+
+    <tbody *ngFor="let item of Data" (click)="onSubmit()">
+        <td>{{item.position}}</td>
+        <td>{{item.name}}</td>
+        <td>{{item.Capital}}</td>
+        <td>{{item.Tradition}}</td>
+        <button class="btn btn-primarry" (click)="onSubmit()"> view</button>
+        
+    </tbody>
+</table>

@@ -1,0 +1,20 @@
+
+
+<div class="grid-container">
+ 
+  <h1 class="mat-h1">Indian culture</h1>
+  <mat-grid-list cols="2" rowHeight="350px">
+    <mat-grid-tile *ngFor="let card of cards | async" [colspan]="card.cols" [rowspan]="card.rows">
+      <mat-card class="dashboard-card">
+        <mat-card-header>
+          <mat-card-title>Indian-culture</mat-card-title>
+        </mat-card-header>
+        <mat-card-content class="dashboard-card-content">
+          <div> Indian culture is a combination of traditional Indian customs, British customs, and other influences from around the world. It is known for both its unity and diversity, consisting of many different languages, cultures, and religious beliefs.</div>
+        
+        </mat-card-content>
+        
+      </mat-card>
+    </mat-grid-tile>
+  </mat-grid-list>
+</div>

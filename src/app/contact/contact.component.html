@@ -1,0 +1,21 @@
+<p>contact form!</p>
+
+<div class="centerDiv">
+  <form>
+    <label htmlFor="name">Name</label>
+    <br />
+    <input class="input" type="text" (change)="getName(name.value)" #name required />
+    <br />
+    <label htmlFor="name">Email</label>
+    <br />
+    <input class="input" type="email" required />
+    <br />
+   
+
+    <img alt="image" width="200px" height="200px" src="" />
+    <br />
+    <input type="file"  (change)="getFile($event)" />
+    <br />
+    <button class="uploadBtn" (click)="submitData()">upload and Submit</button>
+  </form>
+</div>

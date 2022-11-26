@@ -1,0 +1,14 @@
+.example-card {
+    max-width: 100%;
+    display:flex;
+    justify-content: space-evenly;
+    
+
+    
+  }
+  
+  .example-header-image {
+    background-image: url('https://wallpaperaccess.com/full/133807.jpg');
+    background-size: cover;
+  }
+  
